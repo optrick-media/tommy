@@ -85,9 +85,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/features\/footer.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/features\/head.html" : {
       "cB" : 0,
@@ -646,6 +646,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/master.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/sass\/master-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/sass\/master.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -785,6 +797,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/tommy.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tommy.code-workspace",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -795,7 +815,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 702156162.77404904,
-    "displayValue" : "tommy-OptrickMedia",
+    "displayValue" : "tommy",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0
