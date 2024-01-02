@@ -20,5 +20,9 @@ footer {
         font-size: .75em;
         // text-transform: uppercase;
         max-width: none;
+
+        a {
+            text-decoration: underline;
+        }
     }
 }

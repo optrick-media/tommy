@@ -1,5 +1,5 @@
 .style {
-  content: "CUBE-Boilerplate Vo.1.0.2";
+  content: "CUBE-Boilerplate Vo.1.0.3";
 }
 
 .flow > * + * {
@@ -475,6 +475,9 @@ footer h4 {
 footer .copyright p {
   font-size: 0.75em;
   max-width: none;
+}
+footer .copyright p a {
+  text-decoration: underline;
 }
 
 footer {
