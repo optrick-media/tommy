@@ -1,0 +1,26 @@
+@use '../../util' as u;
+
+header {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem 0;
+
+
+        @include u.breakpoint(medium) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    .exergue {
+        padding: 75px 0;
+        //
+        max-width: u.$max-width-content-desk;
+        margin-inline: auto;
+
+        @include u.breakpoint(medium) {
+            padding: 50px 0;
+        }
+    }
+}

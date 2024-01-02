@@ -1,0 +1,14 @@
+@use '../../util' as theme;
+
+main {
+
+
+    a {
+        color: theme.$theme-a;
+
+        &:hover {
+            color: theme.$theme-ahover;
+        }
+    }
+
+}

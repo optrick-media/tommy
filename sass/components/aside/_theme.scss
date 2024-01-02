@@ -1,0 +1,12 @@
+@use '../../util' as theme;
+
+aside {
+
+    a {
+        color: theme.$theme-header-nav-a;
+
+        &:hover {
+            color: theme.$theme-header-nav-ahover;
+        }
+    }
+}

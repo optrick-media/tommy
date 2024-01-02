@@ -1,0 +1,26 @@
+@use '../../util' as theme;
+
+footer {
+    color: theme.$body-color;
+
+    h2,
+    p {
+        color: theme.$body-color;
+    }
+
+    a {
+        color: theme.$body-color-a;
+    }
+
+    .copyright p {
+        color: theme.$theme-copyright-color;
+
+        a {
+            color: theme.$theme-copyright-a;
+        }
+    }
+
+    .js-scroll-top {
+        background: var(--text-color);
+    }
+}

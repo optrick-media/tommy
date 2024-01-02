@@ -1,0 +1,48 @@
+@use '../../util' as u;
+
+footer {
+    position: relative;
+    width: 100%;
+
+    .flex-wrap {
+        display: flex;
+        flex-direction: column;
+
+        @include u.breakpoint(medium) {
+            flex-direction: row;
+        }
+
+        ul {
+            width: 100%;
+            margin: 2px;
+
+            &:not(:first-of-type) {
+                margin-top: .5rem;
+
+                @include u.breakpoint(medium) {
+                    margin-top: 0;
+                    margin-left: .5rem;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        min-height: 20px;
+
+        div {
+            position: absolute;
+            display: block;
+            bottom: 5px;
+        }
+    }
+
+    .js-scroll-top {
+        position: absolute;
+        padding: 5px 10px;
+        background: white;
+        border-radius: 1rem;
+        bottom: 1.25rem;
+        right: 1.25rem;
+    }
+}
