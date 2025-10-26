@@ -8,13 +8,17 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <meta name="description" content="Méthogologie utiliser pour développer une feuille de calcul pour freelance/pigiste à l'aide de seulement Google Docs. Manipulation de format date vers format nombre et le méthode split.  #Go-Make-Somethings-Mindset">
-    <link rel='stylesheet' type='text/css' media='all' href='/dist/css/master.min.css'>
-
+    <!--    boilerplate.blog 1.0    -->
+    <!-- <link rel='stylesheet' type='text/css' media='all' href='https://blog.optrickmedia.com/dist/css/master.min.css'> -->
+    <!-- <link rel='stylesheet' type='text/css' media='all' href='https://blog.optrickmedia.com/dist/css/master.min.css'> -->
+    <link rel='stylesheet' type='text/css' media='all' href='css/master.min.css'>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
-
-
+    
+    <!-- <link rel='stylesheet' type='text/css' media='all' href='https://optrickmedia.com/dist/css/master.min.css'> -->
+    
     <!-- To correct favicon error -->
 
     <!-- To correct favicon error -->
@@ -23,22 +27,19 @@
 
 <body>
     <header class="grid__header">
-        <a href='#main' class="hide">Skip to content</a>
-
-
         <nav>
-            <div class=''>
-                <a href='https://optrickmedia.com/'>Optrick Media</a>
-                <p>// Curriculum Vitae</p>
-            </div>
-            <div class=''>
-                <a href='../../dist/index.html'>Home</a>
-                <!-- <a href='https://blog.optrickmedia.com/a-propos' class="disabled" disabled>À propos</a> -->
-                <p>À propos</p>
-                <!-- <a href='ttps://blog.optrickmedia.com/votre-projet' class="disabled"></a> -->
-                <p>Votre projet&nbsp;?</p>
-            </div>
-        </nav>
+                            <div class=''>
+                                <a href='https://optrickmedia.com/'>Optrick Media</a>
+                                <p>// </p>
+                                <a href='https://tommy.optrickmedia.com/' class="active">Tommy</a>
+                        
+                        
+                            </div>
+                            <div class=''>
+                                <a href='https://tommy.optrickmedia.com/' class="active">À propos</a>
+                                <a href='https://tommy.optrickmedia.com/' class="">Votre projet&#8239;?</a>
+                            </div>
+                        </nav>
 
     </header>
 
@@ -48,39 +49,104 @@
                 <div class="gridArticle__section-head ">
                     <div class="exergue flow">
                         <h1>Tommy Saucier Plourde</h1>
-                        <h2>Designer web - Frontend</h2>
+                        <h2 class="highlight">Designer qui écrit du code au quotidien</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="gridArticle__section-main flow">
-                    <p>Bonjour! Je suis un designer web avec une solide base en code. Mes expériences passées m'ont principalement amené à travailler dans le domaine du e-commerce. Des sujets qui s’ajoute à mes intérêts sont la stratégie et l'inbound marketing.</p>
-                    <p>Dernièrement, j'ai développé une méthodologie innovante qui me permet d'automatiser la génération de contenu HTML à l'aide d'un outil aussi simple qu’une feuille de calcul. Cette nouvelle méthodologie me permet de transformer le contenu directement en un fichier HTML.</p>
-                    <p>Je suis passionné par mon travail et j'aime explorer des projets qui me permettent d'exprimer ma créativité. Si vous êtes intéressé par mon travail, voici une liste de mes projets en cours :</p>
+                    <h3>Simplement qui je suis</h3>
+                    <p>Ce qui me passionne, trouver des solutions créatives aux problèmes qui m’entourent.</p>
+                    <p>Depuis quelques année, je travail sur une méthodologie qui me permet d’automatiser les tâches répétitives de mon travail, principalement la production de contenu HTML. Mon outil de prédilection: des feuille de calcul.</p>
+                    <p>Initialement, le designer puriste que je suis était rempli d’opinion envers cet outil, puis j’ai complété un premier projet. La production d’un premier résultat a été fastidieux et l’ajout de complexité n’a pas aidé mon sentiment initiale. J’ai persisté et modifié mon flow de réalisation et à force de travailler avec l’outil et à me l’approprier, mon sentiment c’est transformé.</p>
+                    <p>Un vendredi soir après avoir complété une série de production difficile à livrer par le manque de ressource, j’ai eu une idée. C’est alors que j’ai sorti mon pad tabloïd — les choses étaient devenues sérieuses — et j’ai esquissé une série d’idée qui plaçait mon nouvel outil au centre de mon processus pour <i>scaller</i> exponentiellement.
+                    </p>
+
+                    <!--
+                        <p>Un vendredi soir après avoir complété une série de production difficile à livrer par le manque de ressource, j’ai eu une idée. C’est alors que j’ai sorti mon pad tabloïd — les choses étaient devenues sérieuses — et j’ai esquissé une série d’idée qui plaçait mon nouvel outil au centre de mon processus pour
+                            <span class="tooltip">scaller <span class="hoverTooltip"> évoluer de manière efficiente</span></span> exponentiellement.</p>
                     <style>
-                        .gridArticle__section-main ul {
-                            padding-left: 60px !important;
+                        .tooltip {
+                            position: relative;
+                            display: inline-block;
+                            border-bottom: 1px dotted black;
                         }
 
-                        .gridArticle__section-main ul li {
-                            list-style: disc outside;
-                            line-height: 1.75;
+                        .tooltip .hoverTooltip {
+                            visibility: hidden;
+                            width: fit-content;
+                            background-color: hsl(0, 0%, 10%);
+                           color: hsl(0, 0%, 80%);
+                            border-radius: 2px;
+                            padding: 5px;
+
+                            /* Position the tooltip */
+                            position: absolute;
+                            z-index: 1;
                         }
 
-                        .gridArticle__section-main ul li:not(:first-of-type) {
-                            margin-top: 15px;
+                        .tooltip:hover .hoverTooltip {
+                            visibility: visible;
                         }
                     </style>
-                    <ul>
-                        <li>Le site web de mon agence, <a href="https:/optrickmedia.com/">Optrick Media</a> qui comprend mon travail professionnel. </li>
-                        <li>Mon <a href="https://blog.optrickmedia.com/">blog</a> que j'ai créé pour partager mes idées et mes réflexions. Loin des médias sociaux.</li>
-                        <li>Mon <a href="https://repertoire.optrickmedia.com/">repertoire</a> qui est une collection des snippets et des composants qui régissent mon monde. </li>
+                        -->
+
+                    <h3><span class="orange">Créativité</span> + <span class="bleu">Code</span></h3>
+                    <picture>
+                        <img src="./media/Creative-Wheel-productivity.png" alt="Une ilustration qui contextualise un flow de travail comprenant les phase du design. du code, de l'automatisation et de la scalabilité ">
+                    </picture>
+                    <h3>Commençons au début : présentez-vous ?</h3>
+                    <p>Je m’appele Tommy Saucier Plourde, je vis au Québec et je travail à l’intersection du design et du code. Le web est mon médium de communication de choix, par contre j’ai acquis une majeure parti de mon expertise en design sur du bon vieux papier. Dans les dernières années, les opportunités de travail ont évolués toujours plus vers le web et j’ai foncé dans cette direction.</p>
+                    <p>Mon enfance n’a rien à voir avec la technologie. J’ai grandit sur la ferme où j’ai apprit à travailler au rythme des saisons, en proximité avec les animaux, la terre et la forêt. J’ai conduit des tracteurs, construit des bâtiments de ferme et cultiver la terre avec mon grand-père et mon père.</p>
+                    <p>Je suis un Designer web <i>frontend</i> qui évolue dans ce domaine depuis un peu plus de 7 ans. J’ai connu de nombreux vendredi fou autant pour un petit Brand avec un core d’une centaine de produits que pour un retail comptant plus de 15 000 produits avec également de nombreux magasins. Ces deux réalités sont bien différentes mais avec le même défi: une courte période de promotion qui se résume par une course pour l’attention des users. De l’infolettre, à la pub dans les médias sociaux, des bannières de campagnes payante et des points de contacts sur le sites sont nombreux et engloutissent un nombre impressionnant d’heure de production.</p>
+                    <picture>
+                        <img src="./media/crunchTime.gif" alt="Un gif animé de Tom Hanks dans le film FedEx qui pousse son équipe à atteindre le plus haut ratio de livraison possibl dans un court lap de temps.">
+                    </picture>
+                    <h3>Let's go les jambes&#8239;!</h3>
+                    <p>Placé dans une position d’inconfort, j’ai étudié ce qui était fait dans le domaine, hors du domaine, mixant les podcasts d’ingénieurs, de dev et d’entreprise de production. Suite à conversations avec des collègues me stimulant que j’ai fini par imaginé un concept un vendredi soir qui me donnera des idées pour des années.</p>
+                    <p>Débutant dans un classeur dédié au contenu comprenant une série de briefs. La seconde étape est la production d’un composant à l’aide d’un microGen - un microGEn est un générateur d’un élément atome - suivi par l’assemblage d’un organisme avec un macroGen. La mise en ligne est la dernière étape de la production avec une fonction Push qui permet une nombre illimités d’éléments. Au fil des semaines, à force de tester et d’utiliser mes idées se sont raffinées et elles sont devenues une API bâtit entièrement dans une feuille de calcul. </p>
+                    <p>Ce sujet est devenu l'une de mes obsession qui est examiné dans cet article&nbsp;: <a href="automatisation.html">automatisation</a></p>
+                    <h4>[...] To be continued</h4>
+
+                    <hr>
+                    <h3>Mon matériel</h3>
+                    <ul class="p">
+                        <style>
+                            /*Style spécia, pour la série de bullet point à revoir si implémentation large */
+                            .gridArticle__section-main h3 {
+                                font-family: sans-serif;
+                                font-size: 1.25em;
+                                font-weight: 700;
+                                text-transform: uppercase;
+                            }
+
+                            .gridArticle__section-main ul {
+                                padding-left: 20px !important;
+                            }
+
+                            .gridArticle__section-main ul li {
+                                list-style: disc outside;
+                                line-height: 1.75;
+                            }
+
+                            .gridArticle__section-main ul li:not(:first-of-type) {
+                                margin-top: 15px;
+                            }
+                        </style>
+                        <li>Le site web de mon agence, <a href="https:/optrickmedia.com/">Optrick Media</a> </li>
+                        <li>Le <a href="https://blog.optrickmedia.com/">blog</a> que j'ai créé pour partager mes idées et mes réflexions
+                            <br /> <span class="upper">loin des médias sociaux</span>
+                        </li>
+                        <li>Le <a href="https://repertoire.optrickmedia.com/">repertoire</a> des snippets et des composants
+                            <br><span class="upper">régissent mon monde</span>
+                        </li>
                     </ul>
                     <p>Je suis toujours à la recherche de nouveaux projets passionnants, alors n'hésitez pas à <a href="mailto:tom@optrickmedia.com">me contacter</a> si vous avez besoin de mes services ou avez des questions.</p>
                 </div>
 
 
+                <!--
                 <div class="gridArticle__section-head  flow" style="margin-top: 60px;">
-                    <h2>Mes articles récents: </h2>
+                    <h2>Mes articles récents&nbsp;: </h2>
                     <hr>
                 </div>
                 <div class="gridArticle__section-main flow">
@@ -89,14 +155,10 @@
                 </div>
                 <div class="gridArticle__section-footer flow">
                     <ul>
-                        <h4>Tags: &nbsp;</h4>
-                        <li><a href="#Suivi-de-temps">Suivi du temps</a> </li>
-                        <li><a href="#Freelance">Pigistes</a> </li>
-                        <li><a href="#Dev">Developpement</a> </li>
-                        <li><a href="#GS">Google Docs</a> </li>
-                        <li><a href="#Split-method">Split method</a></li>
+
                     </ul>
-                </div>
+                </div> 
+               -->
             </section>
         </main>
     </div>
@@ -122,7 +184,9 @@
             <ul>
                 <h3>ressources</h3>
                 <li>
-                    <p><a href="#">I will add more stuff<br><small>Promise to self</small></a></p>
+                    <p><a href="https://repertoire.optrickmedia.com/to-do.html">todo sheet </a></p>
+                    <p><a href="#"> will add more stuff—<small>Promise to self</small></a></p>
+    
                 </li>
             </ul>
             <ul>
@@ -147,7 +211,7 @@
         <div class="copyright">
             <div>
                 <p style="max-width: 100%;">
-                    Copyright © <span class='current-year'>2024</span>
+                    Copyright © <span class="current-year">2024</span>
                     <strong>Optrick Media</strong>
                     All Rights Reserved.
                     Legal&nbsp;: <a href="/privacy/">Confidentialité</a> / <a href="/ethique/">Éthique</a>
